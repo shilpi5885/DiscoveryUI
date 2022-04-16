@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=”stylesheet” href=”css/bootstrap.css”>
+<link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
     <link rel="stylesheet" href="../css/homePage.css"
-    <title></title>
+    <title>DiscoveryUI</title>
 </head>
 <body>
-    <div class = "container">
+    <div class = "vid-container">
         <video autoplay muted loop src = "../assets/DLC web hero 1.5min organized by property.mov.mp4"/>   
     </div>
     <div class = "Menu"> 
         <div class "Logo">
-            <img src="../assets/svgexport-1.svg"/ height="150px" width="150px">
+            <img class="img-responsive" src="../assets/svgexport-1.svg"/ height="150px" width="150px">
         </div>    
         <div class="menu-options">        
             <p>About DLC</p>
@@ -22,28 +24,141 @@
             <p>Gallery</p>
             <p>Press</p>
             <div id="icon">
-                <img src="../assets/1000_F_225221877_9x7repcZzz4ryhvZ4Z5DmlnnCTdTUImT (1).jpg" height="20px" width="20px"/>
+                <img class="img-responsive" src="../assets/1000_F_225221877_9x7repcZzz4ryhvZ4Z5DmlnnCTdTUImT (1).jpg" height="20px" width="20px"/>
             </div>
         </div>
     </div>
     <div class = "Mid-text">
         <p>Discover<br>your world</p>
     </div>
+    <div id="scroll"><p>Scroll to explore</p></div>
     <div class="content">
         <h1 id ="WelcomeHeading"></h1>
         <p id="paragraph"></p>
     </div>
         <div>
-            <img  id ="seaImg" src="../assets/sea.jpg" alt="">
+            <img id ="seaImg" src="../assets/sea.jpg"/>
         </div>
         <div>
-            <img  id = "mountainImg" src="../assets/mountain.jpg" alt="">
+            <img id = "mountainImg" src="../assets/mountain.jpg" alt="">
         </div>
         <div>
-            <img  id = "manImg" src="../assets/man.jpg" alt="">
+            <img id = "manImg" src="../assets/man.jpg" alt="">
         </div>
-    </body>
-    <script src="../js/homePage.js"></script>
+        <div class = "End-text">
+            <p>Explore<br>our worlds</p>
+        </div>
+        <div class="buttons">
+            <div>
+                <img class="img-responsive" src="../Assets/right-arrow.png" alt="">
+            </div>
+            <div>
+                <img class="img-responsive" src="../Assets/left-arrow.png" alt="">
+            </div>
+        </div>
+        <div class = "animated-images">
+            <img class="img-responsive" id= "animationPics" src = "../assets/animation_pic1.jpg">
+            <img class="img-responsive" id = "animationPics" src = "../assets/animation_pic2.jpg">
+            <img class="img-responsive" id = "animationPics" src = "../assets/animation_pic3.jpg">
+            <img class="img-responsive" id = "animationPics" src = "../assets/animation_pic4.jpg">
+            <img class="img-responsive" id = "animationPics" src = "../assets/animation_pic5.jpg">
+            <img class="img-responsive" id = "animationPics" src = "../assets/animation_pic6.jpg">
+            <img class="img-responsive" id = "animationPics" src = "../assets/animation_pic7.jpg">
+        </div>
+        <div class = "lands">
+            <h1>Lands of<br>Discovery</h1>
+            <p>A world away from day-to-day. Your escape. Your haven. Your world.<br>Explore the map below and take a journey  to our communities.</p>
+          </div>
+           <ul class="countries">
+                  <li>North America and Caribbean</li>
+                  <li>Hawaii</li>
+                  <li>Europe</li>
+              </ul>
+          <div class="globe">
+              <img class="img-responsive" src="../assets/globe-usa.jpg" width="1000px" height="1000px"/>
+          </div>
+          <div class="bottom">
+            <img id = "driftwood" src="../assets/driftwood.jpg">
+            <div></div>
+            <div class="arrows">
+              <div><img class="img-responsive" src="../assets/right-Arrow-white.jpg"/></div>
+              <div><img class="img-responsive" src="../assets/left-arrow-white.jpg"/></div>
+            </div>
+              <div id="sun"><img class="img-responsive" src="../assets/sun.jpg" height="10%" width="10%"/></div>
+              <div id="temp"><p>79°F</p></div>
+              <div id="wind"><img class="img-responsive" src="../assets/wind.jpg" height="10%" width="10%"/></div>
+              <div id="speed"><p>5.99 mph</p></div>
+              <div id="compass"><img class="img-responsive" src="../assets/compass.jpg" height="10%" width="10%"/></div>
+              <div id="deg"><p>67°F</p></div>
+              <div id="place"><p>Austin, Texas<br><h2>Driftwood</h2></p></div>
+              <div id="pip"><img class="img-responsive" src="../assets/pip.jpg"></div>
+              <div id="loc"><p>30.139339°N /-98.022342°W</p></div>
+            </div>
+            </div>
+          <div class ="footer">
+            <div class="container">
+              <img src="../assets/Expereinces.jpg" style="width:33%;">
+              <div class="left">Experiences</div>
+              <img src="../assets/wellness.jpg" style="width:33%;">
+              <div class="mid">Wellness</div>
+              <img src="../assets/lifestyle.jpg" style="width:33%;">
+              <div class="right">Lifestyle</div>
+            </div>
+            <div id="logo1"><img class="img-responsive" src="../assets/logo1.jpg" width="50%" height="100%"/></div> 
+            <div id="copyright"><img class="img-responsive" src="../assets/copyright.png" width="10%" height="20%"/></div>
+             <div id="last"><h6>Discovery Land Company. All rights reserved</h6></div> 
+            <ul class="footer-list">
+               <li>
+                   <p>GET IN TOUCH</p>
+               </li> 
+              <li>
+                <a href="phone"><b>(480)624-5200</b></a>
+              </li>
+              <li>
+                <a href="email"><b>mail@discoverylandco.com</b></a>
+              </li>
+            </ul>
+              <ul class="footer-list1">
+                  <li>
+                    <a href = "about "><b>About DLC</b></a>
+                  </li>
+                  <li>
+                    <a href="our worlds"><b>Our Worlds</b></a>
+                  </li>
+                  <li>
+                   <a href = "experiences"><b>Experiences</b></a>
+                 </li>
+                 <li>
+                   <a href="gallery"><b>Gallery</b></a>
+                 </li>
+                 <li>
+                   <a href="press"><b>Press</b></a>
+                 </li>
+                </ul>
+                <ul class="footer-list2"> 
+                   <li>
+                     <a href = "magazine "><b>Magazine</b></a>
+                   </li>
+                   <li>
+                     <a href="careers"><b>Careers</b></a>
+                   </li>
+                   <li>
+                    <a href = "foundation"><b>Foundation</b></a>
+                  </li>
+                  <li>
+                    <a href="company"><b>Company</b></a>
+                  </li>
+                  <li>
+                    <a href="contact"><b>Contact</b></a>
+                  </li>
+                  <li>
+                   <a href="privacy"><b>Privacy</b></a>
+                 </li>
+                 </ul>                 
+                </div>  
+          <div class = "logo1"><img class="img-responsive" src="../assets/svgexport-2 (1).svg"/></div>
+        </body>
+    <script type = module src="../js/homePage.js"></script>
 </body>
 </html>
 
